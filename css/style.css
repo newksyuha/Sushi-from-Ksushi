@@ -21,6 +21,7 @@ h1 {
     width: 100%;
 }
 
+
 /* Navigation Style */
 
 .navbar .brand {
@@ -28,11 +29,12 @@ h1 {
     font-size: 36px;
 }
 
+
 /* Caorusel Style*/
+
 .carousel img {
     width: 100%;
     height: 550px;
-
 }
 
 .carousel-caption {
@@ -53,6 +55,7 @@ h1 {
 
 
 /* Page Style*/
+
 #heading,
 #menu,
 #order,
@@ -79,10 +82,13 @@ h1 {
     min-height: 150px;
 }
 
+
 /* Footer style */
+
 footer {
-    background-color: #191970;
+    background-color: rgb(49, 37, 37);
     color: #E0FFFF;
+    padding-top: 40px;
 }
 
 footer .span6 {
@@ -108,7 +114,6 @@ footer .span12 {
 #social li a:hover.facebook-icon {
     background-position: 0px -32px;
 }
-
 
 #social li a.twitter-icon {
     background-position: -32px 0px;
