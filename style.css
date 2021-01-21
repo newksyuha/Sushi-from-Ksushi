@@ -1,0 +1,132 @@
+﻿body {
+    margin: 0;
+    padding-top: 40px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Yesteryear', cursive;
+}
+
+h1 {
+    color: #8B0000;
+}
+
+.divider {
+    background-image: url(../img/divider.png);
+    background-repeat: repeat-x;
+    height: 40px;
+    width: 100%;
+}
+
+
+/* Navigation Style */
+
+.navbar .brand {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 36px;
+}
+
+
+/* Caorusel Style*/
+
+.carousel img {
+    width: 100%;
+    height: 550px;
+}
+
+.carousel-caption {
+    background: none;
+    max-width: 800px;
+    color: #D3D3D3;
+    padding: 0 200px;
+    text-align: left;
+}
+
+.carousel-caption h1 {
+    text-shadow: 0px 2px #222;
+}
+
+.carousel-caption a {
+    margin-top: 20px;
+}
+
+
+/* Page Style*/
+
+#heading,
+#menu,
+#order,
+#search {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#about div.row {
+    padding: 50px 0;
+}
+
+#payment h1 {
+    padding-bottom: 30px;
+}
+
+.img-polaroid {
+    width: 350px;
+    min-height: 150px;
+}
+
+.span4 {
+    width: 350px;
+    min-height: 150px;
+}
+
+
+/* Footer style */
+
+footer {
+    background-color: rgb(49, 37, 37);
+    color: #E0FFFF;
+    padding-top: 40px;
+}
+
+footer .span6 {
+    text-align: center;
+}
+
+footer .span12 {
+    text-align: center;
+}
+
+#social li a {
+    background-image: url(../img/social-media-icons.png);
+    background-repeat: no-repeat;
+    display: block;
+    height: 32px;
+    width: 32px;
+}
+
+#social li a.facebook-icon {
+    background-position: 0px 0px;
+}
+
+#social li a:hover.facebook-icon {
+    background-position: 0px -32px;
+}
+
+#social li a.twitter-icon {
+    background-position: -32px 0px;
+}
+
+#social li a:hover.twitter-icon {
+    background-position: -32px -32px;
+}
+
+#social li a.google-icon {
+    background-position: -64px 0px;
+}
+
+#social li a:hover.google-icon {
+    background-position: -64px -32px;
+}
